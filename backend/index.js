@@ -1,4 +1,4 @@
-const port = 5000;
+const port = 4000;
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -14,7 +14,7 @@ app.use(cors());
 
 // Database Connection with MongoDB
 
-mongoose.connect("mongodb+srv://bigyanacharya224:6FSmdn4dcUHXntNa@recmailit.wkbjqfm.mongodb.net/?retryWrites=true&w=majority&appName=recmailit")
+mongoose.connect("mongodb+srv://bigyanacharya224:6FSmdn4dcUHXntNa@recmailit.wkbjqfm.mongodb.net/?retryWrites=true&w=majority&appName=reclaimit")
 
 
 // API Creation
